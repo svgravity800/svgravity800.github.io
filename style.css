@@ -1,17 +1,14 @@
-p {
-  font-size: 20px;
-}
-
 body {
-  background-color: darkgray;
-  padding-left: 50px;
+  background-color: #A0A0A0;
+  padding-left: 3px;
 }
 
 table {
   border-collapse: collapse;
   border: 1px solid black;
-  background-color: lightyellow;
-  color: brown;
+  /* background-color: lightyellow; */
+  /* color: brown; */
+  margin: auto;
 }
 
 caption {
@@ -25,11 +22,25 @@ td, th {
   padding-right: 20px;
 }
 
-tr:hover {
-  background-color: SpringGreen;
-}
+
 
 th {
    color: darkblue;
-   background-color: lightcyan;
+   background-color: #E0E0E0 ;
+}
+
+tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+tr:hover {
+  color: #004DFF;
 }
